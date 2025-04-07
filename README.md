@@ -6,7 +6,7 @@
 - [LR1](./formal_languages/lr1/README.md)
 - [Earley](./formal_languages/earley/README.md)
 
-## C++ Lib
+## C++ Lib (C++)
 
 Simplified implementations of some STL classes:
 
