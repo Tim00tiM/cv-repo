@@ -1,0 +1,16 @@
+3 4 5
+ABC
+abcq
+A -> ABC
+A -> ab
+B -> BC
+B -> qb
+C -> cc
+A
+6
+abqbcc
+abqbcccccccc
+abqbccccccc
+abqbccqbccccqbcc
+abqbccqbcccqbcc
+abqbccqbccccqbc
