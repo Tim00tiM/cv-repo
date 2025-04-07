@@ -10,6 +10,10 @@ Simplified implementations of some STL classes:
 - [Smart Pointers](./cpp-lib/smart_pointers.hpp)
 - [Function](./cpp-lib/function.hpp)
 
+## Idle Game (C++)
+
+- [Idle Project](./project-idle/README.md)
+
 ## Parsers (Python)
 
 - [LR1](./formal_languages/lr1/README.md)
