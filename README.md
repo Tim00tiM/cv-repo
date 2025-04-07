@@ -1,11 +1,6 @@
 
 # CV repositories
 
-## Parsers (Python)
-
-- [LR1](./formal_languages/lr1/README.md)
-- [Earley](./formal_languages/earley/README.md)
-
 ## C++ Lib (C++)
 
 Simplified implementations of some STL classes:
@@ -14,6 +9,12 @@ Simplified implementations of some STL classes:
 - [Tuple](./cpp-lib/tuple.hpp)
 - [Smart Pointers](./cpp-lib/smart_pointers.hpp)
 - [Function](./cpp-lib/function.hpp)
+
+## Parsers (Python)
+
+- [LR1](./formal_languages/lr1/README.md)
+- [Earley](./formal_languages/earley/README.md)
+
 
 ## Telegram Bot (Python)
 
