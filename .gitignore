@@ -8,3 +8,5 @@ logs/
 .env
 venv/
 .coverage
+cmake-build-debug
+build/
