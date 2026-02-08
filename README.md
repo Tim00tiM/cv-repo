@@ -1,4 +1,3 @@
-
 # CV repositories
 
 ## C++ Lib (C++)
@@ -19,7 +18,10 @@ Simplified implementations of some STL classes:
 - [LR1](./formal_languages/lr1/README.md)
 - [Earley](./formal_languages/earley/README.md)
 
-
 ## Telegram Bot (Python)
 
 - [Bot](./tg-cipher-bot/README.md)
+
+## Website (Frontend TypeScript+React/Backend Go)
+
+- [Website](./fullstack-project/README.md)
