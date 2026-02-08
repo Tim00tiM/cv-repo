@@ -1,0 +1,14 @@
+@import "./../styles/colors.css";
+
+.button-container {
+  border-radius: 16px;
+  border-width: 0px;
+  background-color: var(--primary-light-color);
+  color: var(--white);
+  position: fixed;
+  width: 156px;
+  height: 64px;
+  bottom: 7%;
+  right: 20%;
+  cursor: pointer;
+}

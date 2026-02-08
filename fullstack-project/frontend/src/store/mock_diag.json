@@ -1,0 +1,78 @@
+[
+    {
+        "author_name": "James.J",
+        "author_id": "5555",
+        "creation_date": "28.08.2025",
+        "id": 144,
+        "title": "Smile Face",
+        "diag": {
+            "width": 4,
+            "height": 4,
+            "diags": [
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 0,
+                            "blue": 0
+                        }
+                    ]
+                },
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 0
+                        }
+                    ]
+                },
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 0,
+                            "blue": 0
+                        }
+                    ]
+                },
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 0
+                        }
+                    ]
+                },
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 0
+                        }
+                    ]
+                },
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 0,
+                            "blue": 0
+                        }
+                    ]
+                },
+                {
+                    "colors": [
+                        {
+                            "red": 255,
+                            "green": 0,
+                            "blue": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

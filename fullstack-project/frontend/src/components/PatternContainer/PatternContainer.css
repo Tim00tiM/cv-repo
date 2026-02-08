@@ -1,0 +1,52 @@
+.pattern-page {
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  flex: 1;
+  align-items: center;
+}
+
+.pattern-preview {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.comments {
+  max-height: 75vh;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: scroll;
+}
+
+.comments-section {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #edfcff;
+}
+
+.new-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+}
+
+.publish-button-comment {
+  padding: 8px;
+  border-radius: 8px;
+  width: 8vw;
+  white-space: normal;
+}
+.input-field {
+  width: 12vw;
+}
+
+.pattern-title {
+  align-items: center;
+  text-align: center;
+}

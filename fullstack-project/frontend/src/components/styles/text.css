@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("../../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
+.heading-1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  color: black;
+}
+
+.heading-2 {
+  font-family: "Josefin Sans";
+  font-style: bold;
+  font-weight: 900;
+  font-size: 64px;
+  color: black;
+}
+
+.text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+}

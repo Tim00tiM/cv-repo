@@ -1,0 +1,15 @@
+.colors-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* overflow-y: auto; i dont know, i am unable to fix that*/ 
+}
+
+.new-color-button {
+  width: 40px !important;
+  height: 40px !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

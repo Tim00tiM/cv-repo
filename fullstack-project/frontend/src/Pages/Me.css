@@ -1,0 +1,17 @@
+.me-page-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-page-author-name {
+  justify-content: center;
+  display: flex;
+  margin-top: 16px;
+}
+
+.author-name-button-edit {
+  margin-left: 16px;
+}

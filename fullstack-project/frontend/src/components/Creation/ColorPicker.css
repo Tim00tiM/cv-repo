@@ -1,0 +1,46 @@
+.color-input {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cross-button {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  transform: scale(0.8);
+  padding: 0;
+  line-height: 1;
+}
+.color-picker-item {
+  position: relative;
+  margin: 2px;
+}
+
+.color-picker-item:hover .cross-button {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.cross-button:hover {
+  background: #cc0000;
+  transform: scale(1.1);
+}

@@ -1,0 +1,22 @@
+.menu-holder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* height: 80vh; */
+  /* width: 40vw; */
+  background-color: #edfcff;
+  align-self: center;
+  margin-top: 5vh;
+  padding: 32px;
+}
+
+.cred-input {
+  width: 15vw;
+  height: 48px;
+  margin: 24px;
+}
+
+.auth {
+  margin: 16px;
+}

@@ -1,0 +1,52 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: fser
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: appdb
+
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/migrations:/docker-entrypoint-initdb.d
+
+    ports:
+      - "5433:5432"
+
+  backend:
+    build:
+      context: ./backend
+    container_name: go-backend
+    restart: unless-stopped
+
+    depends_on:
+      - postgres
+
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: fser
+      DB_PASSWORD: 123
+      DB_NAME: appdb
+      DB_SSLMODE: disable
+
+    expose:
+      - "1988"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: react-nginx
+    restart: unless-stopped
+
+    ports:
+      - "80:80"
+
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

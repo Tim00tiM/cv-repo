@@ -1,0 +1,18 @@
+@import "./../styles/colors.css";
+
+.publish-button {
+  position: absolute;
+  right: 16px;
+  bottom: -32px;
+
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 8px;
+
+  cursor: pointer;
+
+  background-color: var(--primary-light-color);
+  color: var(--white);
+
+}
+

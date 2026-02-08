@@ -1,0 +1,14 @@
+.comment-container {
+  max-width: 10vw;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  background-color: rgb(207, 207, 207);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.cococomment {
+  margin: 24px;
+}
